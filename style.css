@@ -1,0 +1,80 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 50px 20px 50px;
+    margin-top: 120px;
+}
+
+.nav-kiri a{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px 20px 0px 20px;
+    margin-left: 20px;
+}
+/* .nav-kanan div {
+    display: flex; */
+/* } 
+/* .nav-kanan div {
+    /* background-color: aqua(0, 204, 255); */
+    /* margin: 0px 10px 0px 10px; */
+    /* padding: 10px 40px 10px 40px; */
+    /* border-radius: 10px;
+} */
+/* .nav-kanan div a {
+    color:black;
+    text-decoration: none;
+} */ 
+.btn1 {
+    background-color: aqua;
+}
+.btn2 {
+    background-color: aquamarine;
+}
+.tengah{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 50px 0 50px ;
+    /* border: 1px solid; */
+}
+.kiri {
+    margin-left: 100px;
+}
+.kiri .p1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: coral(231, 97, 19);
+    /* margin-top: 100px; */
+}
+.kiri .p2 {
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 100px;
+}
+.kanan img {
+    margin-right: 50px;
+    width: 600px;
+    margin-top: 50px;
+}
+.button-tengah{
+    display: flex;
+}
+.btt1{
+    margin-right: 20px;
+    padding: 7px 30px 7px 30px ;
+    border: 2px solid palevioletred;
+    color: palevioletred;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.btt2{
+    padding: 7px 30px 7px 30px ;
+    background-color: palevioletred;
+    border: 2px solid palevioletred;
+    color:white (7, 236, 76);
+    border-radius: 5px;
+    text-decoration:none;
+    font-size: 17px;
+}
